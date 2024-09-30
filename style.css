@@ -1,0 +1,151 @@
+
+:root{
+    --dark--:#113946;
+    --light--:#ead7bb;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.pimg{
+    width: 150px;
+    height: 150px;
+     border-radius: 8px;
+     background-color: var(--dark--);
+    margin-top: 30px;
+    margin-left: 90px;
+    
+}
+#productGrid{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+   
+
+}
+.pdetails{
+    border: 3px solid var(--dark--);
+     border-radius: 15px;
+    width: 330px;
+    margin-top: 30px;
+    height: 340px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+.pdetails:hover{
+    border-radius: 8%;
+    background-color: var(--light--);
+}
+.ptitle,.pprice{
+    text-align: center;
+    color: black;
+    font-size:14px;
+    margin-top: 0px;
+    font-weight: bold;
+  word-spacing: 2px;
+   
+}
+.pprice{
+    color: green;
+}
+.pbtn{
+    font-size: 15px;
+    background-color: var(--dark--);
+    color: var(--light--);
+    border: none;
+    text-transform: capitalize;
+    border-radius: 10px;
+    
+    padding: 8px;
+    display: block;
+    margin: 0 auto;
+}
+.pbtn:hover{
+    border: 2px solid yellowgreen;
+}
+
+#productModel{
+    
+      width: 200px;
+      border: 2px solid red;
+     background-color: gray;
+     opacity: 50px;
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     }
+
+.ph1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    
+}
+.pp{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    
+}
+.bshead{
+    background-color: var(--dark--);
+    color: var(--light--);
+    height: 122px;
+    
+}
+
+.Search{
+    
+    width:80%;
+   
+    height: 50px;
+}
+#searchInput{
+    width:90%;
+  margin-top:10px;
+    height: 40px;
+}
+#icons{
+    position: absolute;
+    top: 25px;
+    right: 70px;
+    color:black;
+  
+
+}
+@media (max-width:700px){
+    #icons{
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        color:black;
+      
+    
+    }
+    #searchInput{
+        width:85%;
+      margin-top:10px;
+        height: 40px;
+        margin-left: 3px;
+    }
+}
+
+
+
+
+
+/* <div id="productModal" class="fixed inset-0 bg-gray-800 bg-opacity-50 hidden flex items-center justify-center">
+            <div class="bg-white p-6 rounded-lg max-w-sm">
+                <h2 id="modalTitle" class="text-xl font-bold "></h2>
+                <p id="modalDescription" class="mt-2"></p>
+                <p id="modalQuantity" class="mt-2 font-bold">Quantity: 1</p>
+                <button id="closeModal" class="mt-4 bg-blue-500 text-white px-4 py-2 rounded">Close</button> */
+
+
+.ch1,.cp{
+    text-align: center;
+    text-transform: capitalize;
+}
